@@ -24,7 +24,7 @@ int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPSTR cmd, int cmdShow)
 		g_pD3DDev->BeginScene();
 		g_pD3DDev->EndScene();
 		g_pD3DDev->Present(NULL, NULL, NULL, NULL);
-	}
+	} 
 	g_pD3DDev->Release();
 	g_pD3D->Release();
 }
